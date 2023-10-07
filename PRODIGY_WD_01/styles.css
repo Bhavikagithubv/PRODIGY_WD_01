@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Initial background color */
+    transition: background-color 0.3s ease-in-out;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #333; /* Initial background color for menu items */
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff; /* Initial font color */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Hover styles */
+a:hover {
+    background-color: #555; /* Background color on hover */
+    color: #fff; /* Font color on hover */
+}
